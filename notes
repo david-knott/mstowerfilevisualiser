@@ -1,0 +1,16 @@
+update node version for angular 8
+
+sudo npm install n -g
+
+sudo n stable
+
+nodejs --version
+
+sudo n latest
+
+
+docker build -t threedee:dev .
+
+
+docker run -v ${PWD}:/app -v /app/node_modules -p 4201:4200 --rm threedee:dev
+
