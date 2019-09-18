@@ -66,7 +66,6 @@ export class ScratchPadComponent {
         var group = new THREE.Group();
         const angle = this.angle(tw, bw, vh);
         const cvertices = this.scaleBy(tw, bw, vh);
-        console.log(cvertices);
         //builds a face from vertices
         for(var i = 0; i < this.edges.length; i++){
             var esx = cvertices[this.edges[i][0]][0] - this.thickness / 2;
