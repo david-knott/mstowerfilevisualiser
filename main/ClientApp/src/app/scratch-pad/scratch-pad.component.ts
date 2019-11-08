@@ -1,6 +1,6 @@
 import { OnInit, Component, ViewChild, ElementRef } from "@angular/core";
 import * as THREE from "three";
-import { PanelBuilder, TowerBuilder } from "../models/four-legged-lattice";
+import { TowerBuilder } from "../models/tower-builder";
 
 @Component({
   selector: "app-scratch-pad",
@@ -29,12 +29,12 @@ export class ScratchPadComponent {
       1,
       1000
     );
-    this.camera.position.z = 10;
-    this.camera.position.y = 0;
+    this.camera.position.z = 22;
+    this.camera.position.y = 4;
     var tower = new THREE.Group();
 
     let towerBuilder = new TowerBuilder();
-    let thickness = 0.00;
+    let thickness = 0.09;
     let vertices = towerBuilder.buildTower(100);
 
     //create the tower geometry
