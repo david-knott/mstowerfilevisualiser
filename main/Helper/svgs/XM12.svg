@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 270 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="XM12" x="0" y="0" width="270" height="280" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <rect x="0" y="0" width="270" height="280"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <path id="LEG" d="M30,1.385L1,280" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="LEG1" serif:id="LEG" d="M240,1.385L269,280" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR1" d="M30,1.385L269,280" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR11" serif:id="BR1" d="M1,280L240,1.385" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="H1" d="M135,123.789L17.259,123.789" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="H11" serif:id="H1" d="M135,123.789L252.62,123.789" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR12" serif:id="BR1" d="M23.63,62.587L82.5,62.587" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR6" d="M6.363,228.478L45,228.478" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR4" d="M11.835,175.394L90.732,175.394" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR2" d="M82.5,62.587L17.259,123.789" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR13" serif:id="BR1" d="M246.25,62.587L187.5,62.587" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR21" serif:id="BR2" d="M187.5,62.7L252.62,123.789" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR3" d="M17.259,123.789L90.732,175.394" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR5" d="M11.835,175.394L45.196,228.478" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR61" serif:id="BR6" d="M263.204,228.478L225.1,228.478" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR41" serif:id="BR4" d="M257.808,175.394L180,175.394" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR31" serif:id="BR3" d="M252.458,123.789L180,175.394" style="fill:none;stroke:#000;stroke-width:1px;"/>
+        <path id="BR51" serif:id="BR5" d="M257.808,175.394L224.907,228.478" style="fill:none;stroke:#000;stroke-width:1px;"/>
+    </g>
+</svg>

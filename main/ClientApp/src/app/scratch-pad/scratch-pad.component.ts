@@ -33,8 +33,10 @@ export class ScratchPadComponent {
     this.camera.position.y = 4;
     var tower = new THREE.Group();
 
+    //create a tower builder
     let towerBuilder = new TowerBuilder();
     let thickness = 0.09;
+
     let vertices = towerBuilder.buildTower(100);
 
     //create the tower geometry
@@ -94,7 +96,7 @@ var geometry = new THREE.BoxGeometry(2, 2, 2, 1, 1, 1);
 
   animate() {
     window.requestAnimationFrame(() => this.animate());
-    this.scene.rotation.y += 0.015;
+    this.scene.rotation.y += 0.005;
     this.renderer.render(this.scene, this.camera);
   }
 }
